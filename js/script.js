@@ -29,7 +29,7 @@ function decodificador(){
             textoResposta.value = textoCodificado;    
         } 
     }else if(!verificar){
-        textoResposta.value = "NENHUMA MENSAGEM CRIPTOGRAFADA ENCONTRADA"; 
+        textoResposta.value = "NENHUMA MENSAGEM CRIPTOGRAFADA ENCONTRADA, TENTE NOVAMENTE"; 
     }
 }
 
