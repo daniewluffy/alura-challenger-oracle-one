@@ -11,7 +11,7 @@ var textoCodificado = '';
 function codificador(){
     for(var i = 0;i < input.value.length;i++){
             textoCodificado = input.value.toLocaleLowerCase().replace(/[e\é\ê\è]/g,"enter").replace(/[i\í\ì]]/g,"imes")
-            .replace(/[a\á\à\â]/g,"ai").replace(/[o\ó\ò\ô]/g,"ober").replace(/[u\ú\ù\û]/g,"ufat").replace(/[0-9!]/g,'');
+            .replace(/[a\á\à\â\ã]/g,"ai").replace(/[o\ó\ò\ô\õ]/g,"ober").replace(/[u\ú\ù\û]/g,"ufat").replace(/[0-9!]/g,'');
     
             textoResposta.value = textoCodificado;
     }
