@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Codificador/Decodificador</title>
+</head>
+<body>
+    <h1>Criptografia</h1>
+    <div class="box-principal">
+        <div class="box-campo-butao">
+            <div> 
+                <h2>Insira seu texto aqui:</h2>
+                <input type="text" id="campo-texto">
+            </div>
+            <div class="box-butoes">
+                <button class="codificador">CODIFICAR</button>
+                <button class="descodificador">DECODIFICAR</button>
+            </div>
+        </div>
+            <div class="box-resposta">
+                <h2>Resposta:</h2>
+                <textarea name="area-exibicao" id="area-resposta" cols="30" rows="10" disabled></textarea>
+                <div class="butao-copiar">
+                    <button class="copy" onclick="copiarTexto()">COPIAR</button>
+                </div>
+            </div> 
+    </div>
+    <footer>
+        <p>DANIEL DA SILVA GUIMARÃES - 2022</p>
+    </footer>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
