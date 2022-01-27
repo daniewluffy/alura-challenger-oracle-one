@@ -42,6 +42,7 @@ function copiarTexto() {
     var texto = document.querySelector("#area-resposta");
     navigator.clipboard.writeText(texto.value);
     texto.value = "";
+    input.focus();
 }
     
 buttonCodificador.onclick = codificador;

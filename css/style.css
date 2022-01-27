@@ -19,7 +19,6 @@ h1{
 
 #campo-texto{
     border: 2px solid black;
-    background-color: beige;
     width: 233px;
 }
 
@@ -36,12 +35,14 @@ h1{
 
 .codificador{
     border: 2px solid #6bc3e7;
+    border-radius: 7px;
     background-color: black;
     color: white;
 }
 
 .codificador:hover{
     border: 2px solid black;
+    border-radius: 7px;
     background-color: #00224e;
     color: aliceblue;
     font-weight: bold;
@@ -50,12 +51,14 @@ h1{
 
 .descodificador{
     border: 2px solid #6bc3e7;
+    border-radius: 7px;
     background-color: black;
     color: white;
 }
 
 .descodificador:hover{
     border: 2px solid black;
+    border-radius: 7px;
     background-color: #00224e;
     color: aliceblue;
     font-weight: bold;
@@ -65,17 +68,16 @@ h1{
 .box-resposta{
     display: flex;
     flex-direction: column;
-    margin-top: -28px;
-    margin-left: 10px;
     padding: 6px;
 }
 
 #area-resposta{
     border: 2px solid black ;
-    color: white;
     font-size: 20px;
     padding: 15px;
     text-align: justify;
+    color: #00224e;
+    font-weight: bold;
 }
 
 .butao-copiar{
@@ -85,12 +87,14 @@ h1{
 
 .copy{
     border: 2px solid #6bc3e7;
+    border-radius: 7px;
     background-color: black;
     color: white;
 }
 
 .copy:hover{
     border: 2px solid black;
+    border-radius: 7px;
     background-color: #00224e;
     color: aliceblue;
     font-weight: bold;
