@@ -15,7 +15,10 @@ function codificador(){
     
             textoResposta.value = textoCodificado;
     }
-} 
+    
+    input.value = "";
+    input.focus();
+}
 
 function decodificador(){
     palavrasChaves = ['ai','enter','imes','ober','ufat'];
@@ -25,12 +28,14 @@ function decodificador(){
         for(var i = 0;i < input.value.length;i++){
             textoCodificado = input.value.toLocaleLowerCase().replace(/enter/g,"e").replace(/imes/g,"i")
             .replace(/ai/g,"a").replace(/ober/g,"o").replace(/ufat/g,"u").replace(/[0-9!]/g,'');
-
+            
             textoResposta.value = textoCodificado;    
         } 
     }else if(!verificar){
         textoResposta.value = "NENHUMA MENSAGEM CRIPTOGRAFADA ENCONTRADA, TENTE NOVAMENTE"; 
     }
+    input.value = "";
+    input.focus();
 }
 
 function copiarTexto() {
